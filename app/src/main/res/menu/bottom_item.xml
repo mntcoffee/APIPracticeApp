@@ -7,7 +7,7 @@
         />
 
     <item
-        android:id="navigation_account"
+        android:id="@+id/navigation_account"
         android:icon="@drawable/ic_baseline_account_circle_24"
         android:title="navigation_account"/>
 </menu>
