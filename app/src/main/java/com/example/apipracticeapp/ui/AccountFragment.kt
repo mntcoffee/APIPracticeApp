@@ -19,8 +19,14 @@ class AccountFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
         _binding = FragmentAccountBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    //bindingの解放
+    override fun onDestroyView() {
+        super.onDestroyView()
+        //bindingの解放
+        _binding = null
     }
 }
