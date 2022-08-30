@@ -17,9 +17,15 @@
     <fragment
         android:id="@+id/rankingFragment"
         android:name="com.example.apipracticeapp.ui.RankingFragment"
-        android:label="RankingFragment" >
+        android:label="Ranking"
+        tools:layout="@layout/fragment_ranking">
         <action
             android:id="@+id/action_rankingFragment_to_resultFragment"
             app:destination="@id/resultFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.apipracticeapp.ui.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account"/>
 </navigation>
