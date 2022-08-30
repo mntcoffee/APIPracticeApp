@@ -22,6 +22,6 @@
     <string name="forks_number">%1$d forks</string>
     <string name="open_issue">%1$d open issues</string>
     <string name="account_name">hogehoge</string>
-    <string name="navigation_home">navigation_home</string>
-    <string name="navigation_account">navigation_account</string>
+    <string name="navigation_home">Home</string>
+    <string name="navigation_account">Account</string>
 </resources>
