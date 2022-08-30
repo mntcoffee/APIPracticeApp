@@ -62,22 +62,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/bottom_nav_bar"
                 app:layout_constraintTop_toBottomOf="@id/title_text"
                 app:layout_constraintVertical_bias="0.0">
 
             </androidx.recyclerview.widget.RecyclerView>
-
-            <com.google.android.material.bottomnavigation.BottomNavigationView
-                android:id="@+id/bottom_nav_bar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:menu="@menu/bottom_item">
-
-            </com.google.android.material.bottomnavigation.BottomNavigationView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
