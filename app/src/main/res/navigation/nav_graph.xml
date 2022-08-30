@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/resultFragment"
         android:name="com.example.apipracticeapp.ui.ResultFragment"
-        android:label="fragment_result"
+        android:label="Repository Detail"
         tools:layout="@layout/fragment_result" >
         <argument
             android:name="item"
