@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         // Tabの切り替え以外のFragmentの時はBottomNavigationを非表示にする
+        // ranking画面とaccount画面のみbottomNavigationBarを表示
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {
                 R.id.rankingFragment -> navView.visibility = View.VISIBLE
